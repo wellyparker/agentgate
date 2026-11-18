@@ -4,7 +4,7 @@ Promotion drafts + the plan to reach **30 real Agent ID addresses** interacting 
 
 Rules for everything below: **zero promised returns, zero "passive income", zero guaranteed prizes, zero fake accounts, zero paid-per-interaction incentives.** Growth is organic or it doesn't count — the hackathon disqualifies volume manipulation and mass fake accounts.
 
-> ⚠️ **Before posting:** replace `[FRONTEND-URL]` with the live frontend URL and `[AGENTPASS-ADDRESS]` / `[AGENTGATE-ADDRESS]` with the deployed contract addresses. Do not post until the product is actually live — the threads promise a working mint.
+> ✅ **Placeholders FILLED 18 Nov 2026 ~19:00 WIB** — frontend URL and both contract addresses are live in all drafts below. Product is live (deployed 18:45, first mint 18:54, first board post 18:59). Source verified on Sourcify (exact match); native BscScan verification still pending tomi's free API key — drafts say "Sourcify" honestly until then.
 
 ---
 
@@ -36,10 +36,10 @@ Plus a live demo board only pass-holders can post on.
 
 **4/5**
 Try it (free, gas only):
-👉 [FRONTEND-URL]
-Contracts (verified on BscScan):
-• AgentPass: [AGENTPASS-ADDRESS]
-• AgentGate: [AGENTGATE-ADDRESS]
+👉 https://wellyparker.github.io/agentgate/
+Contracts (source verified on Sourcify, exact match):
+• AgentPass: 0x67a6b7c907cab9becfe81377fd434445089c7c5b
+• AgentGate: 0x4dba5b792108ce5af4521990e5e30db08f7d33aa
 
 No seed phrase. No approvals. No sign-up. Just your wallet + your Agent ID.
 #BinanceWalletHackathon #AgenticWallet
@@ -80,10 +80,10 @@ Ada juga demo board yang hanya bisa dipakai pemegang pass.
 
 **4/5**
 Coba gratis (gas only):
-👉 [FRONTEND-URL]
-Kontrak (terverifikasi di BscScan):
-• AgentPass: [AGENTPASS-ADDRESS]
-• AgentGate: [AGENTGATE-ADDRESS]
+👉 https://wellyparker.github.io/agentgate/
+Kontrak (source terverifikasi di Sourcify, exact match):
+• AgentPass: 0x67a6b7c907cab9becfe81377fd434445089c7c5b
+• AgentGate: 0x4dba5b792108ce5af4521990e5e30db08f7d33aa
 
 Tanpa seed phrase. Tanpa approval. Tanpa daftar. Cuma wallet + Agent ID kamu.
 #BinanceWalletHackathon #AgenticWallet
@@ -104,10 +104,10 @@ Dibangun untuk Binance Agent ID Hackathon. Open source (MIT): https://github.com
 >
 > ✅ Free mint — gas only
 > ✅ No seed phrase, no approvals, no sign-up
-> ✅ Open source (MIT), contracts verified on BscScan
+> ✅ Open source (MIT), contracts source-verified (Sourcify exact match)
 > ✅ Live demo board for pass-holders
 >
-> Try it: [FRONTEND-URL]
+> Try it: https://wellyparker.github.io/agentgate/
 > Repo: https://github.com/wellyparker/agentgate
 >
 > Built for the Binance Agent ID Hackathon. If you hold an Agent ID, mint a pass and let me know what you'd gate with it.
@@ -120,10 +120,10 @@ Dibangun untuk Binance Agent ID Hackathon. Open source (MIT): https://github.com
 >
 > ✅ Mint gratis — bayar gas saja
 > ✅ Tanpa seed phrase, tanpa approval, tanpa daftar
-> ✅ Open source (MIT), kontrak terverifikasi di BscScan
+> ✅ Open source (MIT), kontrak terverifikasi source-nya (Sourcify exact match)
 > ✅ Demo board live untuk pemegang pass
 >
-> Coba: [FRONTEND-URL]
+> Coba: https://wellyparker.github.io/agentgate/
 > Repo: https://github.com/wellyparker/agentgate
 >
 > Dibangun untuk Binance Agent ID Hackathon. Kalau kamu punya Agent ID, mint pass-nya dan ceritakan fitur apa yang ingin kamu batasi hanya untuk holder asli.
@@ -170,7 +170,7 @@ Target: **30+ unique Agent ID addresses** interacting with the AgentPass/AgentGa
 
 ### DM template (polite, no pressure)
 
-> Hi! I'm building AgentGate for the Binance Agent ID Hackathon — a free soulbound pass for Agent ID holders that any project can use to gate mints/allowlists to real people instead of sybil farms. Minting is free (gas only), no sign-up, contracts verified on BscScan. If you hold an Agent ID and want to try it: [FRONTEND-URL]. No worries at all if not — and any feedback is welcome!
+> Hi! I'm building AgentGate for the Binance Agent ID Hackathon — a free soulbound pass for Agent ID holders that any project can use to gate mints/allowlists to real people instead of sybil farms. Minting is free (gas only), no sign-up, contracts source-verified (Sourcify exact match). If you hold an Agent ID and want to try it: https://wellyparker.github.io/agentgate/. No worries at all if not — and any feedback is welcome!
 
 ### The safe line (read this before any outreach)
 
@@ -182,4 +182,5 @@ Target: **30+ unique Agent ID addresses** interacting with the AgentPass/AgentGa
 
 | Date | Unique Agent ID addresses interacted | Source / notes |
 | --- | --- | --- |
+| 18 Nov 2026 ~19:00 WIB | **15** (tomi's Agentic Wallet = pass #13; 14 organic minters) | On-chain `totalMinted()` = 15; each minter provably holds an Agent ID (contract-enforced, 1 per holder). Zero promotion done yet — organic discovery. First board post live (post #0 by tomi). |
 | — | 0 | Not yet deployed (18 Nov 2026) |
