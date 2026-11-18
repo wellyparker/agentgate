@@ -1,0 +1,184 @@
+# PROMOTION.md — AgentGate Promotion Pack
+
+Promotion drafts + the plan to reach **30 real Agent ID addresses** interacting with the AgentGate contracts during the submission period (18 Nov – 9 Dec 2026).
+
+Rules for everything below: **zero promised returns, zero "passive income", zero guaranteed prizes, zero fake accounts, zero paid-per-interaction incentives.** Growth is organic or it doesn't count — the hackathon disqualifies volume manipulation and mass fake accounts.
+
+> ⚠️ **Before posting:** replace `[FRONTEND-URL]` with the live frontend URL and `[AGENTPASS-ADDRESS]` / `[AGENTGATE-ADDRESS]` with the deployed contract addresses. Do not post until the product is actually live — the threads promise a working mint.
+
+---
+
+## X Thread — English (5 tweets, copy-paste ready)
+
+**1/5**
+Every airdrop and free mint has the same problem: one farmer, 100 wallets, 100 slots gone.
+
+Agent ID fixes the identity side — 1 non-transferable ID per verified person. But projects had no simple way to check it on-chain.
+
+So I built AgentGate. 🧵
+#BinanceWalletHackathon #AgenticWallet
+
+**2/5**
+AgentGate is a free, open-source primitive on BSC:
+
+🪪 AgentPass — a soulbound pass, free to mint, 1 per Agent ID holder. Eligibility is verified on-chain, no off-chain list.
+🚪 AgentGate — a registry any project can query with ONE call to gate its mint / allowlist / airdrop to real holders.
+#BinanceWalletHackathon #AgenticWallet
+
+**3/5**
+How it works:
+1. Hold an Agent ID (name.ai)
+2. Mint your free AgentPass — you only pay network gas
+3. That's it. Any project using AgentGate now knows you're one verified person, not one of 100 wallets.
+
+Plus a live demo board only pass-holders can post on.
+#BinanceWalletHackathon #AgenticWallet
+
+**4/5**
+Try it (free, gas only):
+👉 [FRONTEND-URL]
+Contracts (verified on BscScan):
+• AgentPass: [AGENTPASS-ADDRESS]
+• AgentGate: [AGENTGATE-ADDRESS]
+
+No seed phrase. No approvals. No sign-up. Just your wallet + your Agent ID.
+#BinanceWalletHackathon #AgenticWallet
+
+**5/5**
+If you hold an Agent ID, mint a pass and tell me what you'd gate with it — allowlists? airdrops? a members-only board?
+
+Built for the Binance Agent ID Hackathon. Open source (MIT): https://github.com/wellyparker/agentgate
+#BinanceWalletHackathon #AgenticWallet
+
+---
+
+## X Thread — Bahasa Indonesia (5 tweet, siap copy-paste)
+
+**1/5**
+Setiap airdrop & free mint punya masalah yang sama: 1 farmer, 100 wallet, 100 slot habis.
+
+Agent ID menyelesaikan sisi identitas — 1 ID non-transferable per orang terverifikasi. Tapi proyek belum punya cara simpel untuk mengeceknya on-chain.
+
+Makanya saya bangun AgentGate. 🧵
+#BinanceWalletHackathon #AgenticWallet
+
+**2/5**
+AgentGate adalah primitive gratis & open-source di BSC:
+
+🪪 AgentPass — pass soulbound, GRATIS mint, 1 per pemegang Agent ID. Eligibility diverifikasi on-chain, tanpa daftar off-chain.
+🚪 AgentGate — registry yang bisa dipakai proyek lain dengan SATU panggilan untuk membatasi mint / allowlist / airdrop hanya untuk holder asli.
+#BinanceWalletHackathon #AgenticWallet
+
+**3/5**
+Cara kerjanya:
+1. Punya Agent ID (nama.ai)
+2. Mint AgentPass gratis — bayar gas jaringan saja
+3. Selesai. Proyek yang memakai AgentGate tahu kamu 1 orang terverifikasi, bukan 1 dari 100 wallet.
+
+Ada juga demo board yang hanya bisa dipakai pemegang pass.
+#BinanceWalletHackathon #AgenticWallet
+
+**4/5**
+Coba gratis (gas only):
+👉 [FRONTEND-URL]
+Kontrak (terverifikasi di BscScan):
+• AgentPass: [AGENTPASS-ADDRESS]
+• AgentGate: [AGENTGATE-ADDRESS]
+
+Tanpa seed phrase. Tanpa approval. Tanpa daftar. Cuma wallet + Agent ID kamu.
+#BinanceWalletHackathon #AgenticWallet
+
+**5/5**
+Kalau kamu punya Agent ID, mint pass-nya dan ceritakan: fitur apa yang ingin kamu batasi hanya untuk holder asli — allowlist? airdrop? board khusus member?
+
+Dibangun untuk Binance Agent ID Hackathon. Open source (MIT): https://github.com/wellyparker/agentgate
+#BinanceWalletHackathon #AgenticWallet
+
+---
+
+## Telegram Post — English (short)
+
+> 🪪 **AgentGate — free soulbound pass for Agent ID holders**
+>
+> Tired of sybil farms eating every mint and airdrop? AgentGate turns your Agent ID into a free on-chain pass (1 per verified person) that any project can use to gate allowlists, mints, and airdrops to real holders.
+>
+> ✅ Free mint — gas only
+> ✅ No seed phrase, no approvals, no sign-up
+> ✅ Open source (MIT), contracts verified on BscScan
+> ✅ Live demo board for pass-holders
+>
+> Try it: [FRONTEND-URL]
+> Repo: https://github.com/wellyparker/agentgate
+>
+> Built for the Binance Agent ID Hackathon. If you hold an Agent ID, mint a pass and let me know what you'd gate with it.
+
+## Telegram Post — Bahasa Indonesia (singkat)
+
+> 🪪 **AgentGate — pass soulbound gratis untuk pemegang Agent ID**
+>
+> Bosan tiap mint & airdrop dihabiskan akun sybil? AgentGate mengubah Agent ID kamu jadi pass on-chain gratis (1 per orang terverifikasi) yang bisa dipakai proyek apa pun untuk membatasi allowlist, mint, dan airdrop hanya untuk holder asli.
+>
+> ✅ Mint gratis — bayar gas saja
+> ✅ Tanpa seed phrase, tanpa approval, tanpa daftar
+> ✅ Open source (MIT), kontrak terverifikasi di BscScan
+> ✅ Demo board live untuk pemegang pass
+>
+> Coba: [FRONTEND-URL]
+> Repo: https://github.com/wellyparker/agentgate
+>
+> Dibangun untuk Binance Agent ID Hackathon. Kalau kamu punya Agent ID, mint pass-nya dan ceritakan fitur apa yang ingin kamu batasi hanya untuk holder asli.
+
+---
+
+## The 30-Address Plan — Getting 30 Real Agent ID Holders
+
+### The honest starting point (biggest risk)
+
+**tomi holds exactly 1 Agent ID (jhera19.ai). The other 29 addresses must come from the real community.** There is no shortcut: fake accounts and paid mass interactions are disqualifying offenses under the hackathon rules ("illegitimate mass account registration", "malicious volume manipulation"). This is the project's #1 risk, and the only fix is genuine promotion of a genuinely free, genuinely useful product.
+
+Target: **30+ unique Agent ID addresses** interacting with the AgentPass/AgentGate contracts between 18 Nov and 9 Dec 2026. Aim for 40+ to have a safety margin (some interactions may not count if an address's Agent ID status is unclear).
+
+### Channels (concrete, in priority order)
+
+| # | Channel | Why it fits | Action |
+| --- | --- | --- | --- |
+| 1 | **X (Twitter)** — post the thread + replies | Agent ID community lives on X; #MyAgentID, #AgenticWallet, #BinanceWalletHackathon audiences already exist. 200,000+ Agent IDs claimed (Binance, 16 Nov 2026). | Post EN thread from tomi's X; quote-post with ID version; reply to @BinanceWallet's hackathon post (when it appears) with the project; reply helpfully to Agent ID threads. |
+| 2 | **Binance Square** — post about the project | Binance's own social feed; hackathon announcement lives there; Agent ID holders browse it. | Repost the announcement with a comment linking AgentGate; publish a Square post (EN) with the frontend link. |
+| 3 | **Telegram — airdrop & Agent ID groups** | tomi already follows airdrop channels (Airdrop Finder, Airdrop Day, Airdrop Farcaster Indonesia). Members hold Agent IDs and hunt free mints. | Post the ID Telegram draft in groups where self-promo is allowed; ask admins first where unsure. Never spam. |
+| 4 | **BNB Chain community (Discord / Telegram / X)** | Builders + users who hold Agent IDs and care about BSC primitives. | Share in BNB Chain builder channels; frame it as a reusable primitive for other builders, not just a mint. |
+| 5 | **GitHub / builder communities** | Developers who hold Agent IDs may integrate the gate — each integration brings their users too. | Post in relevant hackathon/build-in-public threads; the README's one-line integration snippet is the hook. |
+| 6 | **Direct outreach (DMs)** | Warm contacts who already hold an Agent ID. | Personal DM (template below) to people tomi knows in the Agent ID / airdrop scene. No cold mass-DM. |
+
+### Sequence + timeline
+
+| When | Action |
+| --- | --- |
+| **Day 0 (deploy day)** | Deploy + verify contracts; frontend live; tomi mints pass #1 and tests the board end-to-end. |
+| **Day 0, evening** | Post EN X thread (with real links) + submit X link to the Promotion Award survey. Post ID version as quote-post. |
+| **Day 1** | Telegram posts (ID + EN) in 2–3 groups where allowed. Binance Square post. First DMs to warm contacts. |
+| **Day 2–3** | Reply to Agent ID / hackathon conversations on X with the project (genuinely helpful replies, not spam). Share in BNB Chain builder channels. |
+| **Day 4** | Count unique interacting Agent ID addresses on-chain. If < 15, escalate: second X post (demo video/screenshot), more community posts, ask early minters to share. |
+| **Day 7** | Mid-check: target ≥ 20. If behind, post a short demo video + a "what would you gate?" poll to restart conversation. |
+| **Day 14** | Target ≥ 30. If reached, keep promoting lightly (margin + Growth Award metrics). If not, all-hands push in every channel. |
+| **By 2 Dec** | Freeze: confirm 30+ on-chain, file project submission (once form is found). |
+
+### How to count (on-chain, honestly)
+
+- Count unique addresses that called `mint()` on AgentPass (each minter provably holds an Agent ID — the contract enforces it) **plus** unique Agent ID addresses that called AgentGate functions (`post`, `upvote`, `verify`).
+- Check via BscScan token holder list for AgentPass + contract event logs. Record the count and date in this file's log (below) each time it is checked.
+
+### DM template (polite, no pressure)
+
+> Hi! I'm building AgentGate for the Binance Agent ID Hackathon — a free soulbound pass for Agent ID holders that any project can use to gate mints/allowlists to real people instead of sybil farms. Minting is free (gas only), no sign-up, contracts verified on BscScan. If you hold an Agent ID and want to try it: [FRONTEND-URL]. No worries at all if not — and any feedback is welcome!
+
+### The safe line (read this before any outreach)
+
+- ✅ **OK:** inviting people to try a free product; explaining what it does; asking for feedback; posting in communities where self-promo is allowed; early users sharing it because they like it.
+- ❌ **NOT OK (disqualification risk):** creating or buying fake accounts; paying people per mint/interaction; "mint this and I'll send you $X"; renting wallets; wash-trading or self-interacting from many wallets; promising any reward, return, or future airdrop for interacting.
+- **Why:** the hackathon rules disqualify "malicious volume manipulation" and "illegitimate mass account registration for interactions". 30 real users beats 300 fake ones — fakes get the project disqualified and the work wasted.
+
+### Interaction count log
+
+| Date | Unique Agent ID addresses interacted | Source / notes |
+| --- | --- | --- |
+| — | 0 | Not yet deployed (18 Nov 2026) |

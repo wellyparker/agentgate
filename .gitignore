@@ -1,0 +1,14 @@
+# Build artifacts (regenerate with `forge build`)
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
+
+# Never commit keys or credentials
+*.key
+*.pem
+.env
