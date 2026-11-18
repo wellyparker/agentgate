@@ -8,43 +8,46 @@ Rules for everything below: **zero promised returns, zero "passive income", zero
 
 ---
 
-## X Thread — English (5 tweets, copy-paste ready)
+## X Thread — English (6 tweets, copy-paste ready, all ≤ 280 chars verified 18 Nov 19:08)
 
-**1/5**
+**1/6**
 Every airdrop and free mint has the same problem: one farmer, 100 wallets, 100 slots gone.
 
-Agent ID fixes the identity side — 1 non-transferable ID per verified person. But projects had no simple way to check it on-chain.
+Agent ID fixes identity — 1 non-transferable ID per verified person. But projects had no simple way to check it on-chain.
 
 So I built AgentGate. 🧵
 #BinanceWalletHackathon #AgenticWallet
 
-**2/5**
+**2/6**
 AgentGate is a free, open-source primitive on BSC:
 
-🪪 AgentPass — a soulbound pass, free to mint, 1 per Agent ID holder. Eligibility is verified on-chain, no off-chain list.
-🚪 AgentGate — a registry any project can query with ONE call to gate its mint / allowlist / airdrop to real holders.
+🪪 AgentPass — free soulbound pass, 1 per Agent ID holder. Eligibility verified on-chain.
+🚪 AgentGate — one call gates any mint, allowlist, or airdrop to real holders.
 #BinanceWalletHackathon #AgenticWallet
 
-**3/5**
+**3/6**
 How it works:
 1. Hold an Agent ID (name.ai)
-2. Mint your free AgentPass — you only pay network gas
-3. That's it. Any project using AgentGate now knows you're one verified person, not one of 100 wallets.
+2. Mint your free AgentPass — gas only
+3. Done. Any project using AgentGate knows you're one verified person, not one of 100 wallets.
 
 Plus a live demo board only pass-holders can post on.
 #BinanceWalletHackathon #AgenticWallet
 
-**4/5**
+**4/6**
 Try it (free, gas only):
 👉 https://wellyparker.github.io/agentgate/
-Contracts (source verified on Sourcify, exact match):
-• AgentPass: 0x67a6b7c907cab9becfe81377fd434445089c7c5b
-• AgentGate: 0x4dba5b792108ce5af4521990e5e30db08f7d33aa
 
 No seed phrase. No approvals. No sign-up. Just your wallet + your Agent ID.
 #BinanceWalletHackathon #AgenticWallet
 
-**5/5**
+**5/6**
+Contracts (source verified on Sourcify, exact match):
+• AgentPass: 0x67a6b7c907cab9becfe81377fd434445089c7c5b
+• AgentGate: 0x4dba5b792108ce5af4521990e5e30db08f7d33aa
+#BinanceWalletHackathon #AgenticWallet
+
+**6/6**
 If you hold an Agent ID, mint a pass and tell me what you'd gate with it — allowlists? airdrops? a members-only board?
 
 Built for the Binance Agent ID Hackathon. Open source (MIT): https://github.com/wellyparker/agentgate
@@ -182,6 +185,7 @@ Target: **30+ unique Agent ID addresses** interacting with the AgentPass/AgentGa
 
 | Date | Unique Agent ID addresses interacted | Source / notes |
 | --- | --- | --- |
+| 18 Nov 2026 ~19:23 WIB | **31** ✅ BAR CROSSED (tomi = pass #13; 30 organic minters) | On-chain `totalMinted()` = 31, full list in MINTERS.md (Multicall3 `ownerOf()` reads). X thread posted 19:12–19:2x by tomi (@bismuin, 6 tweets, verified complete). |
 | 18 Nov 2026 ~19:06 WIB | **23** (tomi's Agentic Wallet = pass #13; 22 organic minters) | On-chain `totalMinted()` = 23, full list in MINTERS.md (Multicall3 `ownerOf()` reads). Zero promotion done yet — organic discovery. First board post live (post #0 by tomi). |
 | 18 Nov 2026 ~19:00 WIB | **15** (tomi's Agentic Wallet = pass #13; 14 organic minters) | On-chain `totalMinted()` = 15; each minter provably holds an Agent ID (contract-enforced, 1 per holder). Zero promotion done yet — organic discovery. First board post live (post #0 by tomi). |
 | — | 0 | Not yet deployed (18 Nov 2026) |

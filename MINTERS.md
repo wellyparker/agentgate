@@ -33,6 +33,15 @@ Verified via Multicall3 `ownerOf()` reads (single eth_call), 18 Nov 2026 ~19:06 
 | #21 | 0x8a42547F9Aad3Cd1D74964412A5F5eb068085D5e |
 | #22 | 0x730d1c42469084210443188C56Ab9D586bEcb4eA |
 | #23 | 0x542d588511a0CB7FbF178AeaD2c23fF98C0d2E3F |
+| #24 | 0xCd710a311aedb31068661B6c8dfcdAff555b806a |
+| #25 | 0x4Dd17fF0cF28aCA284F72DAF1d12e79f67703A98 |
+| #26 | 0xf42Cdb15d7949309EF2c0063443e94D0307eb631 |
+| #27 | 0xA455a51A1646A5E3EbB5Cce1d7823493792fDf7e |
+| #28 | 0xB3642D69C6D6f3370aD423cBD72295800eeEa1CE |
+| #29 | 0xF4965505D4c4D72B06bB11D830992048eAdE0366 |
+| #30 | 0x372D48abe5eDccCcDE9BD914a6dE30Dc53e3a1Db |
+| #31 | 0xF899aFc140DA4E087E771Cc496D88d0154c5ccd7 |
 
-**Total: 23 / 30** unique Agent ID addresses as of 18 Nov 2026 ~19:06 WIB (deploy was 18:45 WIB).
-Zero promotion done — all organic discovery. 7 more to reach the Innovation Award eligibility bar.
+**Total: 31 / 30** unique Agent ID addresses as of 18 Nov 2026 ~19:23 WIB (deploy was 18:45 WIB).
+**The Innovation Award eligibility bar (≥30) is CROSSED.** 22 of the 31 came organically before any
+promotion; the X thread (@bismuin, posted 19:12–19:2x WIB) is now also live and driving more.
