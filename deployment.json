@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "network": "BSC mainnet (56)",
+  "deployer": "0x3e79533eD3FEEe77B97C1dF2941F44aF33C2e5d0",
+  "gasPriceGwei": 0.05,
+  "totalCostBNB": "0.00010549",
+  "deployedAt": "2026-11-18T11:44:37.537Z",
+  "agentPass": {
+    "address": "0x67a6b7c907cab9becfe81377fd434445089c7c5b",
+    "txHash": "0x5b1853b1b89f40d8db1a75b0794cbcdeab5afe5d7df3ba413f43690467a824e8",
+    "block": 134305517,
+    "gasUsed": "1472552",
+    "costBNB": "0.00007362"
+  },
+  "agentGate": {
+    "address": "0x4dba5b792108ce5af4521990e5e30db08f7d33aa",
+    "txHash": "0x6decb40a176f5c069071916787eff57440e7ec59cbb07570fb3dbf069939b504",
+    "block": 134305544,
+    "gasUsed": "637410",
+    "costBNB": "0.00003187"
+  }
+}

@@ -22,10 +22,9 @@ const CONFIG = {
   // Agent ID contract (SPACE ID Agent ID, ERC-721) — VERIFIED on-chain.
   AGENT_ID_ADDRESS: "0x60b9262456de011f7d15a54cdd8c48baaa8b022f",
 
-  // TBD — set after deploy. Until then the UI shows a "deploying soon"
-  // banner, keeps the Agent ID check working, and disables mint/board.
-  AGENT_PASS_ADDRESS: "0x0000000000000000000000000000000000000000",
-  AGENT_GATE_ADDRESS: "0x0000000000000000000000000000000000000000",
+  // Deployed 2026-11-18 ~18:45 WIB (farming EOA, tx 0x5b1853b1... / 0x6decb40a...).
+  AGENT_PASS_ADDRESS: "0x67a6b7c907cab9becfe81377fd434445089c7c5b",
+  AGENT_GATE_ADDRESS: "0x4dba5b792108ce5af4521990e5e30db08f7d33aa",
 
   MAX_POST_LENGTH: 280,
   MAX_POSTS_SHOWN: 20,
