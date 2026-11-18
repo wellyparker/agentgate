@@ -16,8 +16,8 @@
 | Contract | Address |
 | --- | --- |
 | Agent ID (SPACE ID registry, reference) | `0x60b9262456de011f7d15a54cdd8c48baaa8b022f` |
-| AgentPass (ERC-721 soulbound) | `0x0000000000000000000000000000000000000000` (TBD — set after deploy) |
-| AgentGate (registry + board) | `0x0000000000000000000000000000000000000000` (TBD — set after deploy) |
+| AgentPass (ERC-721 soulbound) | `0x67a6b7c907cab9becfe81377fd434445089c7c5b` |
+| AgentGate (registry + board) | `0x4dba5b792108ce5af4521990e5e30db08f7d33aa` |
 
 ## What to do for your user
 

@@ -25,9 +25,23 @@ Submission pack for the **Binance Agent ID Hackathon** (Submission Period: 18 No
 
 | Contract | Address | BscScan |
 | --- | --- | --- |
-| AgentPass (ERC-721 soulbound) | **To be deployed** | — |
-| AgentGate (registry + board) | **To be deployed** | — |
+| AgentPass (ERC-721 soulbound) | `0x67a6b7c907cab9becfe81377fd434445089c7c5b` | [BscScan](https://bscscan.com/address/0x67a6b7c907cab9becfe81377fd434445089c7c5b) |
+| AgentGate (registry + board) | `0x4dba5b792108ce5af4521990e5e30db08f7d33aa` | [BscScan](https://bscscan.com/address/0x4dba5b792108ce5af4521990e5e30db08f7d33aa) |
 | Agent ID (SPACE ID, reference) | `0x60b9262456de011f7d15a54cdd8c48baaa8b022f` | [BscScan](https://bscscan.com/address/0x60b9262456de011f7d15a54cdd8c48baaa8b022f) |
+
+## Deploy (LIVE — 18 Nov 2026 ~18:45 WIB)
+
+Deployed from the farming EOA (`0x3e79533eD3FEEe77B97C1dF2941F44aF33C2e5d0`) on tomi's explicit order, gas price 0.05 gwei.
+
+| Deploy | Tx hash | Block | Gas used | Cost |
+| --- | --- | --- | --- | --- |
+| AgentPass | [0x5b1853b1b89f40d8db1a75b0794cbcdeab5afe5d7df3ba413f43690467a824e8](https://bscscan.com/tx/0x5b1853b1b89f40d8db1a75b0794cbcdeab5afe5d7df3ba413f43690467a824e8) | 134305517 | 1,472,552 | 0.00007363 BNB |
+| AgentGate | [0x6decb40a176f5c069071916787eff57440e7ec59cbb07570fb3dbf069939b504](https://bscscan.com/tx/0x6decb40a176f5c069071916787eff57440e7ec59cbb07570fb3dbf069939b504) | 134305544 | 637,410 | 0.00003187 BNB |
+| **TOTAL** | | | **2,109,962** | **0.00010549 BNB** |
+
+On-chain verification (read-only, right after deploy): `AgentGate.isVerifiedAgent(Agentic Wallet)` = true · `AgentGate.agentPass()` = AgentPass address · `AgentPass.totalMinted()` = 0 · `AgentPass.agentId()` = Agent ID contract. Full record in `deployment.json`. EOA balance after deploy: 0.00052357 BNB (Etherlink bridge still fundable, barely).
+
+**Source verification:** Sourcify **exact_match** for both contracts (confirmed via Sourcify API v2, 18 Nov 2026). Native BscScan verification still pending — needs tomi's free BscScan API key (see `docs/verification.md` Path A).
 
 ## Deploy cost (verified dry-run, 18 Nov 2026 ~18:40 WIB)
 
@@ -115,12 +129,12 @@ Gas price on BSC moves — re-run the dry-run script right before deploying.
 
 | # | Item | Status |
 | --- | --- | --- |
-| 1 | Contracts written (AgentPass, AgentGate) | 🔨 In progress (parallel builder) |
-| 2 | Contracts deployed on BSC mainnet | ⏳ Pending |
-| 3 | Source verified on BscScan | ⏳ Pending (see `docs/verification.md`) |
-| 4 | Repo public on GitHub (MIT, open-source) | ⏳ Pending (coordinator to push) |
-| 5 | Frontend live on GitHub Pages | ⏳ Pending |
-| 6 | Product live + usable with an Agent ID | ⏳ Pending (needs deploy) |
+| 1 | Contracts written (AgentPass, AgentGate) | ✅ Done (30/30 forge tests pass, incl. BSC fork test) |
+| 2 | Contracts deployed on BSC mainnet | ✅ Done 18 Nov ~18:45 WIB (see Deploy section above) |
+| 3 | Source verified on BscScan | 🔶 Sourcify exact_match done; native BscScan pending free API key (tomi's hands) |
+| 4 | Repo public on GitHub (MIT, open-source) | ✅ Done — https://github.com/wellyparker/agentgate |
+| 5 | Frontend live on GitHub Pages | ✅ Done — https://wellyparker.github.io/agentgate/ (live addresses wired in) |
+| 6 | Product live + usable with an Agent ID | 🔶 Live; first mint pending baw re-login (tomi confirming pairing in Binance App) |
 | 7 | ≥ 30 Agent ID addresses interacted with contracts | ⏳ Pending — **main risk** (see `PROMOTION.md`; tomi holds 1 Agent ID, 29 must come from real community) |
 | 8 | Project submission form found | ❌ Not found yet (see Form Hunt above) |
 | 9 | Project submitted via official form | ⏳ Blocked on #8 |

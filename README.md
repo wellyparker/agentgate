@@ -67,10 +67,10 @@ The two projects are complementary: AgentLabs proves the audience; AgentGate giv
 | Contract | Address | Status |
 | --- | --- | --- |
 | Agent ID (SPACE ID, external) | `0x60b9262456de011f7d15a54cdd8c48baaa8b022f` | Live (reference) |
-| AgentPass (ERC-721 soulbound) | **To be deployed** | ⏳ Pending deployment |
-| AgentGate (registry + board) | **To be deployed** | ⏳ Pending deployment |
+| AgentPass (ERC-721 soulbound) | `0x67a6b7c907cab9becfe81377fd434445089c7c5b` | ✅ Live (deployed 18 Nov 2026) |
+| AgentGate (registry + board) | `0x4dba5b792108ce5af4521990e5e30db08f7d33aa` | ✅ Live (deployed 18 Nov 2026) |
 
-> Source code will be verified on BscScan immediately after deployment. See [`docs/verification.md`](docs/verification.md).
+> Source code verified on **Sourcify (exact_match, both contracts)** — confirmed via the Sourcify API 18 Nov 2026. Native BscScan verification (Path A in [`docs/verification.md`](docs/verification.md)) still needs a free BscScan API key.
 
 ## Repository Structure
 
@@ -99,7 +99,7 @@ agentgate/
 └── frontend/               # Static frontend (vanilla JS, zero CDN)
     ├── index.html
     ├── app.js
-    ├── config.js           # Contract addresses (TBD until deploy)
+    ├── config.js           # Contract addresses (live, deployed 18 Nov 2026)
     └── styles.css
 ```
 
@@ -127,7 +127,7 @@ interface IAgentGate {
 }
 
 contract MyMint {
-    IAgentGate public constant GATE = IAgentGate(0x0000000000000000000000000000000000000000); // TODO: AgentGate address after deploy
+    IAgentGate public constant GATE = IAgentGate(0x4dba5b792108ce5af4521990e5e30db08f7d33aa); // AgentGate, BSC mainnet
 
     function mint() external {
         require(GATE.isVerifiedAgent(msg.sender), "AgentGate: Agent ID required");

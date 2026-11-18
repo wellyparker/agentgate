@@ -2,7 +2,7 @@
 
 Goal: both AgentGate contracts show **verified source code** on BscScan, as the Binance Agent ID Hackathon requires ("deployed smart contracts on BNB Chain with source code verified and open-sourced on BscScan").
 
-Status: **not yet executed** — contracts are not deployed yet. Run this walkthrough immediately after deployment.
+Status: **contracts deployed 18 Nov 2026 ~18:45 WIB; Sourcify exact_match verified for both (confirmed via API).** Native BscScan verification (Path A) still pending — needs tomi's free BscScan API key.
 
 ---
 
