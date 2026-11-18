@@ -185,6 +185,7 @@ Target: **30+ unique Agent ID addresses** interacting with the AgentPass/AgentGa
 
 | Date | Unique Agent ID addresses interacted | Source / notes |
 | --- | --- | --- |
+| 18 Nov 2026 ~19:43 WIB | **43** (tomi = pass #13; 42 other minters) | On-chain `totalMinted()` = 43, full list in MINTERS.md (Multicall3 `ownerOf()` reads). +12 minters in the 20 minutes since 19:23 — the X thread is driving it. |
 | 18 Nov 2026 ~19:41 WIB | **Promotion Award SUBMITTED** — survey sent by tomi ("Berhasil Dikirim"): Binance UID 483535906 + X thread link | Survey: binance.com/id/survey/ff6832f8d2984af289068c9450a3c98c. Form needed Binance login + 2 fields (UID, X link). Thread verified complete (6 tweets) before submission. |
 | 18 Nov 2026 ~19:23 WIB | **31** ✅ BAR CROSSED (tomi = pass #13; 30 organic minters) | On-chain `totalMinted()` = 31, full list in MINTERS.md (Multicall3 `ownerOf()` reads). X thread posted 19:12–19:2x by tomi (@bismuin, 6 tweets, verified complete). |
 | 18 Nov 2026 ~19:06 WIB | **23** (tomi's Agentic Wallet = pass #13; 22 organic minters) | On-chain `totalMinted()` = 23, full list in MINTERS.md (Multicall3 `ownerOf()` reads). Zero promotion done yet — organic discovery. First board post live (post #0 by tomi). |

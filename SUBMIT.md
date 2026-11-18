@@ -135,7 +135,7 @@ Gas price on BSC moves — re-run the dry-run script right before deploying.
 | 4 | Repo public on GitHub (MIT, open-source) | ✅ Done — https://github.com/wellyparker/agentgate |
 | 5 | Frontend live on GitHub Pages | ✅ Done — https://wellyparker.github.io/agentgate/ (live addresses wired in) |
 | 6 | Product live + usable with an Agent ID | ✅ Done — tomi minted pass #13 (18:54) + posted board post #0 (18:59); both confirmed on-chain |
-| 7 | ≥ 30 Agent ID addresses interacted with contracts | ✅ **DONE — 31/30 (18 Nov ~19:23)** — 30 organic minters + tomi; full list in MINTERS.md (Multicall3 `ownerOf()` reads, all distinct addresses) |
+| 7 | ≥ 30 Agent ID addresses interacted with contracts | ✅ **DONE — 43/30 (18 Nov ~19:43)** — 42 other minters + tomi; full list in MINTERS.md (Multicall3 `ownerOf()` reads, all distinct addresses) |
 | 7 | ≥ 30 Agent ID addresses interacted with contracts | ⏳ Pending — **main risk** (see `PROMOTION.md`; tomi holds 1 Agent ID, 29 must come from real community) |
 | 8 | Project submission form found | ❌ Not found yet (see Form Hunt above) |
 | 9 | Project submitted via official form | ⏳ Blocked on #8 |

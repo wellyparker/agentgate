@@ -41,7 +41,19 @@ Verified via Multicall3 `ownerOf()` reads (single eth_call), 18 Nov 2026 ~19:06 
 | #29 | 0xF4965505D4c4D72B06bB11D830992048eAdE0366 |
 | #30 | 0x372D48abe5eDccCcDE9BD914a6dE30Dc53e3a1Db |
 | #31 | 0xF899aFc140DA4E087E771Cc496D88d0154c5ccd7 |
+| #32 | 0xcCFaA6A7DBC37957C262bbF262765d2283d1c3B3 |
+| #33 | 0x22CF3CcDA4f4cc65B24c53BCFfBa7a78b058Cf75 |
+| #34 | 0x22f7983D486C384997db6d3804Ec59E637C1A288 |
+| #35 | 0x927F61a1aE68AB418cEA1Cc0772C28BdE6fD3d14 |
+| #36 | 0x43078394e2B1bEA493AD158a4A0abd7c9aC9959F |
+| #37 | 0xe55CEd81314EDF295594fEcc1ed5f27d5D3B2eae |
+| #38 | 0x798C87dc6F9CE1Df9944a42c522013F22809397c |
+| #39 | 0xc8E6A46c8779EAcabC76E2aBc2335e02F220d0cD |
+| #40 | 0xE1E005fA06E1cE43797C5A936BA59b824453D8Bb |
+| #41 | 0xa96bA2ECaCBcC0e986313cBe6d061798d983786f |
+| #42 | 0x30588CfBCe27269D4e76128C7eD934e270c9c927 |
+| #43 | 0xa3B4575c7D5baAF8AD1f0696aF176d3E4a456A9C |
 
-**Total: 31 / 30** unique Agent ID addresses as of 18 Nov 2026 ~19:23 WIB (deploy was 18:45 WIB).
+**Total: 43 / 30** unique Agent ID addresses as of 18 Nov 2026 ~19:43 WIB (deploy was 18:45 WIB).
 **The Innovation Award eligibility bar (≥30) is CROSSED.** 22 of the 31 came organically before any
 promotion; the X thread (@bismuin, posted 19:12–19:2x WIB) is now also live and driving more.
