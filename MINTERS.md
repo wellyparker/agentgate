@@ -6,7 +6,8 @@ on-chain, and the 1-pass-per-holder rule is enforced by the contract, so every e
 distinct Agent ID address. Addresses are public on-chain data (BSC mainnet).
 
 Contract: `0x67a6b7c907cab9becfe81377fd434445089c7c5b` (AgentPass)
-Verified via Multicall3 `ownerOf()` reads (single eth_call), 18 Nov 2026 ~19:06 WIB.
+Verified via Multicall3 `ownerOf()` reads (single eth_call), 18 Nov 2026 ~20:30 WIB.
+**Total: 76 passes, 76 distinct holders** (Innovation Award bar: 30 — exceeded 2.5x).
 
 | Token | Holder |
 |---|---|
@@ -53,7 +54,40 @@ Verified via Multicall3 `ownerOf()` reads (single eth_call), 18 Nov 2026 ~19:06 
 | #41 | 0xa96bA2ECaCBcC0e986313cBe6d061798d983786f |
 | #42 | 0x30588CfBCe27269D4e76128C7eD934e270c9c927 |
 | #43 | 0xa3B4575c7D5baAF8AD1f0696aF176d3E4a456A9C |
+| #44 | 0x0a90F878E4CF3EF3BC0Ee4a67e2FF0166986ad5F |
+| #45 | 0x6b72ACC3255d53018BEFb1731B6E435178842a5d |
+| #46 | 0x907c7fC4537757E4C6558eD9EaCf2c691139bd6D |
+| #47 | 0x5170E8bBBe02427dbe8421723664432ae58a515f |
+| #48 | 0x8F91643DE74f0EE0e7f3856d84854291D2ef4209 |
+| #49 | 0xa56Cca91BF571ae3a9543b4c58c3F7041534AafF |
+| #50 | 0xdc692D2A43de722162B2872EE7E1781e138E818f |
+| #51 | 0x163aca94B3585786AC3055649fd57C4AEF08B956 |
+| #52 | 0x78e7A2C6d4d33196E5880F1Fa6bf4A35816D1548 |
+| #53 | 0xFf22cf466E56051037852599ba119C4e451177f5 |
+| #54 | 0x6032ac7cec4F1C73014534B441368F8Eb357600b |
+| #55 | 0xd301d472F2E469a1aafA1aF6f214E312F1858873 |
+| #56 | 0x2c9F064147Be4d486Fdcb3F08dDEA689262a03a0 |
+| #57 | 0x86aEb88C2E279C0b5EF80dd2081b9374267D84fA |
+| #58 | 0x80F4743a756d5B29A87b9676913d84c92cd76B11 |
+| #59 | 0x80A0225dF18B1219FFB909E030585569627679Bb |
+| #60 | 0x2B2C8cc29F471327e839E59653E3165Ea5B22C45 |
+| #61 | 0x54E8e98d4C1a1B796511569D2d075857e6fC611C |
+| #62 | 0x5FE1D38D7f17233dFdc1352F27d9F1eE92D69014 |
+| #63 | 0x318A538eDfcB5F1e7b3e69f21326259EC4D05366 |
+| #64 | 0x8D073a3Ff12Bf764AE6ee6bA4c87987C82967b25 |
+| #65 | 0xd636187c2531227a78d6D46D6dea1A349Ed383E9 |
+| #66 | 0x82fE3144E6810529650010985AC4032249b09e24 |
+| #67 | 0x85e0525AFFeB4756cA9f507eE517978F5afE3af8 |
+| #68 | 0x2C0898fd2a427c42576D729Fb07be7617c651f2b |
+| #69 | 0x5180BB1150a69553D9922345cb2b41dFA7Fe9b81 |
+| #70 | 0xA59CfAf4b63dcCBbDe66Ac3478d267DdF5803c3c |
+| #71 | 0x9011faac8eD0B505153d500dde7FBd421327FE86 |
+| #72 | 0x06E2e85C0baa254D6970c476d90CB177288C7FA3 |
+| #73 | 0x1D9bA3E69Ed0F548d544792419c743a556d3A29a |
+| #74 | 0x9D14281aD66C336Fc5E2A16af2B30897aBe4529E |
+| #75 | 0x2cb91F6FC9a46ACFcb42Ed5d1D0FCd4a0d09599b |
+| #76 | 0x22f6889Bf6B4dD733D882CBC0e05D078dFc5d77b |
 
-**Total: 43 / 30** unique Agent ID addresses as of 18 Nov 2026 ~19:43 WIB (deploy was 18:45 WIB).
-**The Innovation Award eligibility bar (≥30) is CROSSED.** 22 of the 31 came organically before any
-promotion; the X thread (@bismuin, posted 19:12–19:2x WIB) is now also live and driving more.
+**Total: 76 / 30** unique Agent ID addresses as of 18 Nov 2026 ~20:30 WIB (deploy was 18:45 WIB).
+**The Innovation Award eligibility bar (≥30) is CROSSED 2.5x.** Growth: 12 at ~18:53 → 43 at ~19:43
+→ **76 at ~20:30**, driven by the X thread (@bismuin, posted 19:12–19:2x WIB) and organic discovery.

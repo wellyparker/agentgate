@@ -97,6 +97,7 @@ Gas price on BSC moves — re-run the dry-run script right before deploying.
 | 8 | Web search: "\"#BinanceWalletHackathon\" Agent ID Hackathon" | `browser.search` | Only the announcement; no X post with a form link indexed yet. |
 | 9 | Web search: "\"Agent ID Hackathon\" survey submit project name website contract address" | `browser.search` | Only the announcement; no form. |
 | 10 | Web search: "Binance Agentic Wallet ecosystem page Agent ID hackathon submit project" (coordinator, ~18:40 WIB) | `browser.search` | Same announcement + Square mirror + news post. The announcement links Agentic Wallet dev docs (https://web3.binance.com/en/dev-docs/products/agentic-wallet/introduction) but no project form. The "Agentic Wallet ecosystem page" is named only as where *winning* projects will be featured — watch it and the dev-docs pages for a submission link. |
+| 11 | Fresh re-check ~20:28 WIB: announcement page re-crawled + fresh web search "Binance Agent ID Hackathon submit project form survey" | `browser.open` + `browser.search` | Announcement re-crawled <1 min before the check — still no project form link (step 3 unlinked; only the Promotion survey link). Search returned only the announcement, Square mirrors, and older hackathons. Form still unpublished ~5.5h after the submission period opened. |
 
 ### What WAS found — Promotion Award survey (NOT the project form)
 
