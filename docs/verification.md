@@ -2,16 +2,28 @@
 
 Goal: both AgentGate contracts show **verified source code** on BscScan, as the Binance Agent ID Hackathon requires ("deployed smart contracts on BNB Chain with source code verified and open-sourced on BscScan").
 
-Status: **contracts deployed 18 Nov 2026 ~18:45 WIB; Sourcify exact_match verified for both (confirmed via API).** Native BscScan verification (Path A) still pending — needs tomi's free BscScan API key.
+Status: **DONE 18 Nov 2026 ~20:45 WIB — both contracts Pass - Verified natively on BscScan** (Sourcify exact_match was already done). Verified via the unified Etherscan v2 API (chainid 56) with tomi's free BscScan API key — connector `custom.bscscan`, helper `bin/bscscan.py`. Compiler v0.8.24+commit.e11b9ed9, optimizer 200 runs, standard JSON input built from Foundry artifact metadata (all source hashes matched). The steps below are the pre-execution plan; the actual path taken is recorded in "What actually happened".
 
 ---
 
 ## Context: which API to use
 
-- **BscScan's legacy v1 API is deprecated.** Do not use old `api.bscscan.com/api` v1 guides without checking they still work.
-- **Etherscan's unified v2 API (`api.etherscan.io/v2/api`) does NOT cover BSC on the free plan** — BSC (chain 56) is paid-only there. Do not rely on the Etherscan key for BSC verification.
+- **BscScan's legacy v1 API is DEAD (verified 18 Nov 2026).** `api.bscscan.com/api` returns a 301 redirect to https://docs.etherscan.io/v2-migration. Do not use any v1 guide.
+- **Etherscan's unified v2 API (`api.etherscan.io/v2/api`) does NOT cover BSC on the Etherscan-issued free key** — BSC (chain 56) is paid-only there. Do not rely on the Etherscan key for BSC verification. **But a BscScan-issued free key DOES work on v2 with chainid=56** (verified 18 Nov 2026) — the issuing explorer determines which chains are free.
 - **Primary path below uses a free BscScan API key** obtained directly from bscscan.com. BscScan still issues free API keys to registered accounts.
 - Where a step below is marked **"confirm at execution time"**, it means the exact endpoint/flag has not been re-verified against BscScan's current docs — check https://docs.bscscan.com/ before running it. Do not improvise a different verifier.
+
+---
+
+## What actually happened (18 Nov 2026 ~20:40–20:45 WIB)
+
+1. Tomi created a free BscScan API key (bscscan.com/myapikey) and handed it over via the secure connector link. Connector `custom.bscscan` registered (api_key, `query_param:apikey`, hosts `api.bscscan.com` + `api.etherscan.io`).
+2. Helper `~/workspace/custom-connectors/custom.bscscan/bin/bscscan.py` written (mirrors the Etherscan helper; surrogate via `url_with_surrogate_query_param`).
+3. First read (`getsourcecode`) proved the key works on v2 chainid 56 and showed AgentPass unverified.
+4. Standard JSON inputs built from Foundry artifact metadata (`/tmp/build_stdjson.mjs`): every on-disk source hash matched the metadata keccak256 (AgentPass 16 files, AgentGate 3 files); exact settings reused (optimizer 200 runs, evmVersion cancun, remappings).
+5. First submissions FAILED identically: `Unknown key "compilationTarget"` — Foundry adds that key to stored metadata, solc rejects it. Fix: strip `compilationTarget` from settings and resubmit.
+6. Second submissions PASSED: AgentPass guid `nheqtx7k…` → **Pass - Verified**; AgentGate guid `zgutwwcm…` → **Pass - Verified**. Confirmed via `getsourcecode`: both show ContractName + `v0.8.24+commit.e11b9ed9` + full source.
+7. Two more v2 gotchas recorded: chainid must be a **query parameter even on POSTs** (form-body-only chainid is rejected); the v1 endpoint is a 301, not an API.
 
 ---
 

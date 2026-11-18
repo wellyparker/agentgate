@@ -41,7 +41,7 @@ Deployed from the farming EOA (`0x3e79533eD3FEEe77B97C1dF2941F44aF33C2e5d0`) on 
 
 On-chain verification (read-only, right after deploy): `AgentGate.isVerifiedAgent(Agentic Wallet)` = true · `AgentGate.agentPass()` = AgentPass address · `AgentPass.totalMinted()` = 0 · `AgentPass.agentId()` = Agent ID contract. Full record in `deployment.json`. EOA balance after deploy: 0.00052357 BNB (Etherlink bridge still fundable, barely).
 
-**Source verification:** Sourcify **exact_match** for both contracts (confirmed via Sourcify API v2, 18 Nov 2026). Native BscScan verification still pending — needs tomi's free BscScan API key (see `docs/verification.md` Path A).
+**Source verification:** Sourcify **exact_match** for both contracts (confirmed via Sourcify API v2, 18 Nov 2026). Native BscScan verification **DONE 18 Nov ~20:45 WIB** — both contracts **Pass - Verified** via the unified Etherscan v2 API (chainid 56) with tomi's free BscScan API key (connector `custom.bscscan`, helper `bin/bscscan.py`). Compiler v0.8.24+commit.e11b9ed9, optimizer 200 runs, standard JSON input built from Foundry artifact metadata. See `docs/verification.md` for the exact path (v1 API is dead — 301 to migration docs; chainid must be a query param even on POSTs; strip `compilationTarget` from settings).
 
 ## Deploy cost (verified dry-run, 18 Nov 2026 ~18:40 WIB)
 
