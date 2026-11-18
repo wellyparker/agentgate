@@ -182,5 +182,6 @@ Target: **30+ unique Agent ID addresses** interacting with the AgentPass/AgentGa
 
 | Date | Unique Agent ID addresses interacted | Source / notes |
 | --- | --- | --- |
+| 18 Nov 2026 ~19:06 WIB | **23** (tomi's Agentic Wallet = pass #13; 22 organic minters) | On-chain `totalMinted()` = 23, full list in MINTERS.md (Multicall3 `ownerOf()` reads). Zero promotion done yet — organic discovery. First board post live (post #0 by tomi). |
 | 18 Nov 2026 ~19:00 WIB | **15** (tomi's Agentic Wallet = pass #13; 14 organic minters) | On-chain `totalMinted()` = 15; each minter provably holds an Agent ID (contract-enforced, 1 per holder). Zero promotion done yet — organic discovery. First board post live (post #0 by tomi). |
 | — | 0 | Not yet deployed (18 Nov 2026) |
