@@ -67,7 +67,7 @@ Gas price on BSC moves — re-run the dry-run script right before deploying.
 
 ## 🔍 Project Submission Form Hunt
 
-**Result as of 18 Nov 2026 ~18:35 WIB: FORM NOT FOUND.**
+**Result as of 18 Nov 2026 ~18:40 WIB: FORM NOT FOUND.** (Re-confirmed by coordinator at 18:40: a further search for the Agentic Wallet ecosystem page / dev docs surfaced only the same announcement, Square mirror, and news post — still no project form link.)
 
 ### What was searched (all on 18 Nov 2026)
 
@@ -82,6 +82,7 @@ Gas price on BSC moves — re-run the dry-run script right before deploying.
 | 7 | Web search: "BinanceWallet \"Agent ID Hackathon\" X post November 2026" | `browser.search` | No @BinanceWallet X announcement post surfaced (only the 100k-claims post of 25 Oct and 200k-claims news of 16 Nov). |
 | 8 | Web search: "\"#BinanceWalletHackathon\" Agent ID Hackathon" | `browser.search` | Only the announcement; no X post with a form link indexed yet. |
 | 9 | Web search: "\"Agent ID Hackathon\" survey submit project name website contract address" | `browser.search` | Only the announcement; no form. |
+| 10 | Web search: "Binance Agentic Wallet ecosystem page Agent ID hackathon submit project" (coordinator, ~18:40 WIB) | `browser.search` | Same announcement + Square mirror + news post. The announcement links Agentic Wallet dev docs (https://web3.binance.com/en/dev-docs/products/agentic-wallet/introduction) but no project form. The "Agentic Wallet ecosystem page" is named only as where *winning* projects will be featured — watch it and the dev-docs pages for a submission link. |
 
 ### What WAS found — Promotion Award survey (NOT the project form)
 
@@ -95,6 +96,7 @@ Gas price on BSC moves — re-run the dry-run script right before deploying.
 2. **The announcement page will be updated with the form link** (the "For More Information:" section at the end of the Square version is currently empty — a placeholder for a link to come).
 3. **The form may live inside the Binance App** (in-app survey/banner) rather than on the public web.
 4. **Submission may open via a BNB Chain blog post / hackathon page** (as with BNB Hack editions, which used Google Forms) — none exists yet as of this writing.
+5. **The form may appear on the Agentic Wallet ecosystem page or dev-docs pages** (https://web3.binance.com/en/dev-docs/products/agentic-wallet/introduction) — the announcement names the ecosystem page as the home of Agent ID projects; worth checking alongside the announcement on each daily re-check.
 
 ### Follow-up plan
 

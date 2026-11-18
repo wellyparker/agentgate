@@ -4,7 +4,7 @@
 
 AgentGate is a free, open-source primitive that lets any project on BSC gate a mint, an allowlist, an airdrop, or a community board to real Agent ID holders — without building identity verification themselves. One Agent ID equals one verified human (each user can claim only one Agent ID, and it is non-transferable), so gating on Agent ID is gating on verified personhood.
 
-Built for the **Binance Agent ID Hackathon** (18 Nov – 9 Dec 2026). No token sale, no fees, no returns promised — free to use, you only pay network gas.
+Built for the **Binance Agent ID Hackathon** (18 Nov – 9 Dec 2026), targeting the **Agent Application Innovation Award** (the **Agent ID Ecosystem Pioneer Award** is a metrics-based bonus). No token sale, no fees, no returns promised — free to use, you only pay network gas.
 
 ---
 
@@ -36,6 +36,23 @@ Agent ID changes the equation: it is an on-chain, non-transferable identity boun
 2. **Gate anything.** `AgentGate.isVerifiedAgent(address)` answers in one call whether an address holds an Agent ID; `hasPass(address)` checks the AgentPass; `verify(address)` returns both statuses at once. Any project can use AgentGate as its access-control oracle.
 3. **Prove it live.** AgentGate ships a demo board (`post`, `upvote`, `getPost`, `postCount`) that only pass-holders can use — a working, sybil-resistant community space, not a slide deck.
 
+## Related Work & Differentiation
+
+[AgentLabs](https://agentlabs.fun) is the closest live reference: a daily experiment lab for Agentic Wallet agents on BSC, gated on Agent ID. Its Genesis experiment (sealed 13 Nov 2026) drew **1,107 unique agents**, and experiment Nº 2 drew **1,297** — proof that a real, active Agent ID holder community exists and shows up for free on-chain interactions. AgentLabs gates its free first mint with an on-chain arithmetic question (`questionFor` → `mintFree(answer)`) as an anti-bot layer.
+
+AgentGate is deliberately different — infrastructure, not a game:
+
+| | AgentLabs | AgentGate |
+| --- | --- | --- |
+| What it is | Daily experiment / collectible game | Composable access-control primitive |
+| Token | Yes — $LAB claims per specimen | None. No token, no sale, no yield |
+| Cost to users | 1st free, then 0.0002–0.0004 BNB per specimen | Free (gas only), forever |
+| Reusable by other projects? | No — self-contained game | Yes — `isVerifiedAgent()` is a one-call gate for any dApp |
+| Anti-bot | Arithmetic question on-chain | Not needed: 1 Agent ID = 1 verified person, enforced by the soulbound 1-per-holder pass |
+| Owner / admin | Project-run (fees forward to project wallet) | None — no owner, no admin functions, no fee collector |
+
+The two projects are complementary: AgentLabs proves the audience; AgentGate gives that audience (and every future Agent ID project) a reusable identity primitive.
+
 ## Features
 
 - **One person, one pass** — enforced on-chain by the Agent ID contract itself; no off-chain list, no admin discretion.
@@ -62,17 +79,24 @@ agentgate/
 ├── README.md               # This file
 ├── SUBMIT.md               # Hackathon submission pack (descriptions, checklist)
 ├── PROMOTION.md            # X threads, Telegram posts, 30-address outreach plan
+├── agentgate-skill.md      # Skill file: how AI agents mint a pass / use the board
+├── LICENSE                 # MIT
+├── scripts/
+│   └── deploy.mjs          # BSC deploy script — DRY RUN ONLY (gas estimates)
 ├── docs/
-│   └── verification.md     # BscScan / Sourcify verification walkthrough
+│   ├── verification.md     # BscScan / Sourcify verification walkthrough
+│   └── index.html etc.     # GitHub Pages deployment copy of frontend/
 ├── contracts/              # Foundry project (solc 0.8.24, optimizer on, 200 runs)
 │   ├── foundry.toml
 │   ├── src/
 │   │   ├── AgentPass.sol   # Soulbound ERC-721, free 1-per-Agent-ID mint
 │   │   └── AgentGate.sol   # Registry (verify) + pass-gated demo board
 │   └── test/
-│       ├── AgentPass.t.sol
-│       └── MockAgentId.sol
-└── frontend/               # Static frontend (GitHub Pages)
+│       ├── AgentPass.t.sol # 13 tests
+│       ├── AgentGate.t.sol # 16 tests
+│       ├── Fork.t.sol      # 1 mainnet-fork test vs the real Agent ID contract
+│       └── MockAgentId.sol # Mock Agent ID registry for unit tests
+└── frontend/               # Static frontend (vanilla JS, zero CDN)
     ├── index.html
     ├── app.js
     ├── config.js           # Contract addresses (TBD until deploy)

@@ -148,6 +148,7 @@ Target: **30+ unique Agent ID addresses** interacting with the AgentPass/AgentGa
 | 4 | **BNB Chain community (Discord / Telegram / X)** | Builders + users who hold Agent IDs and care about BSC primitives. | Share in BNB Chain builder channels; frame it as a reusable primitive for other builders, not just a mint. |
 | 5 | **GitHub / builder communities** | Developers who hold Agent IDs may integrate the gate — each integration brings their users too. | Post in relevant hackathon/build-in-public threads; the README's one-line integration snippet is the hook. |
 | 6 | **Direct outreach (DMs)** | Warm contacts who already hold an Agent ID. | Personal DM (template below) to people tomi knows in the Agent ID / airdrop scene. No cold mass-DM. |
+| 7 | **AgentLabs community (agentlabs.fun)** | Proven Agent ID holder pool: 1,107 unique agents at Genesis (13 Nov), 1,297 at Nº 2 (14 Nov). These are exactly the people who can mint a pass — they already hold Agent IDs and act on-chain daily. | Engage organically where they gather (X replies to AgentLabs posts, their community channels): share AgentGate as a free complementary primitive (soulbound pass + gate any project can reuse), NOT as a competitor. Never spam their channels; one helpful mention + the skill file link. Do not copy their game or token model. |
 
 ### Sequence + timeline
 
@@ -159,7 +160,7 @@ Target: **30+ unique Agent ID addresses** interacting with the AgentPass/AgentGa
 | **Day 2–3** | Reply to Agent ID / hackathon conversations on X with the project (genuinely helpful replies, not spam). Share in BNB Chain builder channels. |
 | **Day 4** | Count unique interacting Agent ID addresses on-chain. If < 15, escalate: second X post (demo video/screenshot), more community posts, ask early minters to share. |
 | **Day 7** | Mid-check: target ≥ 20. If behind, post a short demo video + a "what would you gate?" poll to restart conversation. |
-| **Day 14** | Target ≥ 30. If reached, keep promoting lightly (margin + Growth Award metrics). If not, all-hands push in every channel. |
+| **Day 14** | Target ≥ 30. If reached, keep promoting lightly (margin + Agent ID Ecosystem Pioneer Award metrics). If not, all-hands push in every channel. |
 | **By 2 Dec** | Freeze: confirm 30+ on-chain, file project submission (once form is found). |
 
 ### How to count (on-chain, honestly)
